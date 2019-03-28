@@ -49,11 +49,11 @@ export const USERS = {
   '/user/:id': (req: MockRequest) => list.find(w => w.id === +req.params.id),
   'POST /user/:id': (req: MockRequest) => saveData(+req.params.id, req.body),
   '/user/current': {
-    name: 'Cipchk',
+    name: '徐凤年',
     avatar:
       'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
     userid: '00000001',
-    email: 'cipchk@qq.com',
+    email: '123@qq.com',
     signature: '海纳百川，有容乃大',
     title: '交互专家',
     group: '蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED',
@@ -102,10 +102,10 @@ export const USERS = {
   'POST /login/account': (req: MockRequest) => {
     const data = req.body;
     if (
-      !(data.userName === 'admin' || data.userName === 'user') ||
-      data.password !== 'ng-alain.com'
+      !(data.userName === 'admin') ||
+      data.password !== '123456'
     ) {
-      return { msg: `Invalid username or password（admin/ng-alain.com）` };
+      return { msg: `账号密码（admin/123456）` };
     }
     return {
       msg: 'ok',
