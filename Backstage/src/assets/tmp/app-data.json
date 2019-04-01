@@ -16,7 +16,7 @@
     "children": [{
         "text": "统计分析",
         "i18n": "menu.statistic",
-        "icon": "anticon anticon-statistic",
+        "icon": "anticon anticon-bar-chart",
         "children": [{
           "text": "流量统计",
           "link": "/statistic/flow",
@@ -50,14 +50,18 @@
         }]
       }, 
       {
-        "text": "新闻中心管理",
-        "i18n": "menu.news",
+        "text": "其他管理",
+        "i18n": "menu.other",
         "icon": "anticon anticon-dashboard",
         "children": [{
-          "text": "流量统计",
-          "link": "/news/analysis",
-          "i18n": "menu.dashboard.analysis"
-        }]
+          "text": "新闻中心管理",
+          "link": "/other/news",
+          "i18n": "menu.other.news"
+        },{
+            "text": "资质、荣誉管理",
+            "link": "/other/honor",
+            "i18n": "menu.other.honor"
+          }]
       }
     ]
   }]
