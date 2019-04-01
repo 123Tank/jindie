@@ -84,7 +84,9 @@
     "ng-alain-codelyzer": "^0.0.1",
     "@delon/testing": "^7.0.3",
     "less-bundle-promise": "^1.0.7",
-    "@angularclass/hmr": "^2.1.3"
+    "@angularclass/hmr": "^2.1.3",
+    "@types/mockjs": "^1.0.2",
+    "mockjs": "^1.0.1-beta3"
   },
   "lint-staged": {
     "*.{cmd,html,json,md,sh,txt,xml,yml}": [
