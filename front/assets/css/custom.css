@@ -1,0 +1,2299 @@
+body, .theme-main-wrapper {
+    background-color: #ffffff;
+    background-repeat: repeat;
+    background-position: right bottom;
+    background-attachment: scroll;
+	font-family:'Hiragino Sans GB','Helvetica Neue', 'Microsoft YaHei', 黑体, Arial, sans-serif;
+	
+}
+
+.mk-header-toolbar {
+    background-color: #eeeeee;
+    background-repeat: repeat;
+    background-position: right bottom;
+    background-attachment: scroll;
+}
+
+#mk-header, .mk-secondary-header {
+    background-color: #ffffff;
+    background-repeat: repeat;
+    background-position: right bottom;
+    background-attachment: scroll;
+}
+
+.theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.light-header-skin, .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.dark-header-skin {
+    border-top: none !important;
+    background: rgba(255,255,255,.8);
+}
+
+.theme-main-wrapper:not(.vertical-header) .sticky-header.sticky-header-padding {
+    padding-top:70px;
+}
+
+.theme-main-wrapper .sticky-header.sticky-header-padding {
+    padding-top: 70px\0;
+}
+
+.sticky-header-padding {
+    background-color: #ffffff;
+}
+
+#mk-header.transparent-header-sticky, #mk-header.sticky-header:not(.transparent-header) {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#mk-page-title {
+    padding: 40px 0;
+}
+
+#mk-page-title .mk-page-heading {
+    font-size: 18px;
+    color: #545454;;;
+}
+
+#mk-breadcrumbs {
+    line-height: 18px;
+}
+
+#mk-page-title .mk-page-title-bg {
+    background-color: #fafafa;
+    background-repeat: repeat;
+    background-position: right bottom;;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.page-master-holder {
+    position: relative;
+}
+
+.background-img--page {
+    background-color: #ffffff;
+    background-repeat: repeat;
+    background-position: right bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    z-index: -1;
+}
+
+#mk-footer {
+    background-color: #0c1e3a;
+    background-repeat: repeat;
+    background-position: center top;
+    background-attachment: scroll;
+}
+.with_frm_style .frm_submit {
+    text-align: right;
+}
+.dashboard-trigger.desktop-mode {
+    display: none;
+}
+
+#sub-footer{
+	 background-color: #0c1e3a !important;
+}
+/*最新移动过来的代码*/
+.mk-header-logo{
+    height:48px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+.login-xian{
+    display: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px 0px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    left: -52px;
+       margin-top: 0px;
+       z-index:99;
+}
+.login-xian p{
+    margin-bottom:5px !important;
+}
+.login-zxiao{
+    font-size: 16px;
+    padding-left: 8px;
+}
+.header-search-user-icon{
+    cursor: pointer;
+      margin-top: 0 !important;
+}
+img.login-img {
+    margin-top: -2px;
+}
+
+.featured-image:hover .hover-plus-icon-xsmall{
+    opacity: 0 !important;
+}
+.blog-masonry-entry.three-column .blog-title{
+   display: block; 
+}
+.single-content p{
+    text-align: justify;
+}
+.important-sreach{
+    position: absolute;
+    opacity: 0;
+}
+
+/*菜单*/
+#menu-item-42589{
+    padding-left: 10px;	
+}
+ #mk-main-navigation > ul > li.has-mega-menu > ul{
+	 background:none;
+	 }
+
+/*skin移过来的代码*/
+/*菜单解决方案*/
+
+#mk-main-navigation > ul > li.menu-item > a{
+    font-weight:400;
+}
+#menu-item-571{
+    float:right;
+    margin-left: 1% !important;
+}
+.mk-header-search{
+     margin-left: 14%;   
+}
+#menu-item-24972{
+    padding-left: 80px;
+    width: 300px;
+    position: absolute;
+    margin-left: 210px;
+    left: 50%;
+       
+}
+#menu-item-24970,#menu-item-24979{
+  background: transparent;
+    width: 620px !important;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+  
+}
+#menu-item-24971{
+       width: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -320px;
+}
+.menu01{
+    font-size:20px;
+        position: relative;
+    top:0px;
+}
+.menu01 p{
+	margin: 0;
+    text-align: center;
+    padding-left: 55% !important;
+    cursor: pointer;
+    font-size:20px;
+    line-height:55px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    transition: .3s color;
+}
+.menu01 p:hover{
+ background: #2e8bff;
+ color:#fff;
+  font-weight: 300;
+}
+.menu01 p:hover:after{
+ content: '' !important;
+    background-image: url(/wp-content/uploads/2017/07/jt.png);
+    width: 11px;
+    height: 20px;
+    margin-top: 17px;
+    float: right;
+    margin-right: 10px;
+}
+.menu01-active{
+    color: #1580e4;
+	background: #e4e4e4;
+}
+.menu02{
+    margin-left:-30px;
+    position: relative;
+    top:0px;
+}
+.menu02 P{
+        cursor: pointer;
+    font-size:20px;
+    line-height:25px;
+}
+.menu03{
+     margin-left:-60px;
+    position: relative;
+    top:0px;
+}
+.menu03 p{
+      cursor: pointer;
+    font-size:20px;
+  line-height: 32px;
+    margin-bottom:0px !important;
+}
+.menu-jt{
+     margin-left: 90px;
+    position: absolute;
+    margin-top: 3px; 
+}  
+
+.menu-close{
+    font-size: 60px;
+    color: #666666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 400px;
+    cursor: pointer;
+}
+.menu-close:hover{
+    color: #1580e4; 
+}
+
+
+.menu-close{
+-webkit-animation:menu-close 1.8s infinite linear;
+-moz-animation:menu-close 1.8s infinite linear;
+-ms-animation:menu-close 1.8s infinite linear;
+-o-animation:menu-close 1.8s infinite linear
+}/* CSS Document */
+
+ @-webkit-keyframes menu-close {
+	 0%{
+		 opacity:0;
+		 top:0px;
+		 }
+     10%{
+         opacity:0;
+         top:0px;
+     }
+	 35%{
+		 opacity:0.5;
+		 top:-15px;
+		 }
+		 80%{
+			 opacity:1;
+			  top:-30px;
+			 }
+     100%{
+         opacity:0;
+         top:-30px;
+     }
+ }
+
+.kd-erp{
+   font-size: 16px !important;
+    line-height: 10px !important;
+}
+.kd-erp a{
+    color:#333;
+}
+.kd-erp a:hover{
+    color:#005abc;
+}
+
+.kd-zjj{
+        font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*云菜单*/
+
+
+#menu-item-24980{
+       width: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+}
+.menu-cl01 p{
+    margin-bottom:10px;
+    font-size:16px;
+}
+#text-14{
+ margin-left:40px;   
+}
+
+
+
+
+
+/*客户菜单*/
+#menu-item-24987{
+     background: transparent;
+    width: 610px !important;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    
+}
+#menu-item-24988{
+      width: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;    
+}
+
+/*关于菜单*/
+#menu-item-24992{
+   background: transparent;
+    width: 620px !important;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;   
+    
+}
+#menu-item-24993{
+      width: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;    
+}
+.sticky-trigger-header #menu-item-15 .sub-menu:before {
+    margin-left: -328px; 
+}
+
+.mk-icon-search:before {
+    content: '' !important;
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/s4.png);
+     width: 29px;
+    height: 29px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: background-image 200ms;
+}
+#mk-main-navigation ul li.has-mega-menu > ul{
+       border-top: 0!important; 
+}
+.kdd{
+    top:8% !important;
+}
+.kdd-samll{
+    top:4.5% !important;
+}
+
+.bannert01{
+    border:1px solid #ffffff;
+    padding: 10px 50px;
+   
+    color: #ffffff;
+    border-radius: 50px;   
+}
+
+.bannert01:hover{
+
+background:#fff;
+   
+}
+.iee8{
+    display:block !important;
+    margin-top:23px !important;
+}
+.iee8-hide{
+    display:none !important;
+}
+.foot-tag-a a{
+    color:#b8b8b8 !important;
+}
+.foot-tag-a a:hover{
+    color:#ededed !important;
+}
+.footer-uplinks-city {
+      left: -64px;
+    bottom: 20px;
+    background: #f1f1f1;
+    padding: 10px;
+    z-index: 10;
+    line-height: 22px;
+    width: 180px;
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.footer-uplinks-city a {
+    display: block;
+}
+.foot-ok-hover a{
+  color:#333333 !important;   
+}
+.foot-ok-hover a:hover{
+  color:#005abc !important;   
+}
+.footer-link-city {
+    cursor: pointer;
+    position: relative;
+    padding-top: 12px;
+    margin-right: 10px;
+}
+.gjjs {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ffffff;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.linf{
+  	border-right: 0px solid #444a53 !important;  
+}
+/*视频*/
+
+.video-tzd{
+width:100%;
+height:600px;
+}
+
+.mk-post-nav{
+    display:none;
+}
+.footer-breadcumbs{
+  background: #fff;
+    padding: 8px;
+    border-bottom: 1px solid #d8d8d8;  
+}
+#mk-breadcrumbs{
+margin-left:20px;
+color: #7a7a7a;	
+}
+#mk-breadcrumbs a{
+color:#7a7a7a;	
+}
+#mk-footer .mk-padding-wrapper{
+    padding: 0px !important;	
+}
+
+.nm:before {
+    content: "";
+    background-image: url(/wp-content/uploads/2017/04/dd0_13.png);
+    height: 30px;
+    width: 42px;
+        background-size: 100% 100%;
+    position: absolute;
+    margin-left: -52px;
+    margin-top: -4px;
+}
+.cm:before{
+  content: "";
+    background-image: url(/wp-content/uploads/2017/04/dd0_15.png);
+    height: 30px;
+    width: 22px;
+        background-size: 100% 100%;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -4px;  
+}
+.hb:before{
+  content: "";
+    background-image: url(/wp-content/uploads/2017/04/dd0_10_02.png);
+    height: 30px;
+    width: 23px;
+        background-size: 100% 100%;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -4px;  
+}
+
+/*新闻*/
+.news-title-block {
+    background-image: url(/wp-content/uploads/2017/06/news_cloud.jpg);
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.news_masthead_title {
+    font-size: 30px;
+    text-align: left;
+    line-height: 120px;
+    letter-spacing: 0px;
+    color: #696969;
+    font-weight: inherit;
+    margin-bottom: 0px;
+      margin-left: 20px;
+}
+.news_title{
+    font-size: 32px;
+    text-align: left;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #393836;
+    font-weight: inherit;
+    margin-bottom:5px;
+  
+}
+.news_padding{
+     margin: 0px auto !important;   
+}
+
+/*lunbotu*/
+.tp-bullets {
+    width: auto!important;
+    text-align: center;
+}
+.tp-bullet {
+    width: 8px;
+    height: 8px;
+    background: #666 !important;
+    border-radius: 10px;
+    display: inline-block;
+    transition: width 500ms;
+    position: relative;
+    left: 0!important;
+    top: 0!important;
+     margin: 0 5px;
+}
+.tp-bullet:hover {
+    background: #0071c8 !important; 
+}
+.tp-bullet.selected {
+    width: 20px !important;
+    height: 8px !important;
+    background: #0071c8 !important;
+    margin: 0 5px;
+}
+
+/*serce-menu*/
+input::-webkit-input-placeholder{
+    color: #999;
+}
+.mk-header-search .active .mk-icon-search:before{
+    content: '' !important;
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/s4.png);
+     width: 29px;
+    height: 29px;
+}
+.header-search-icon{
+    width:29px;
+}
+#s{
+width:16%;
+}
+.hdfe, .ie8-hdfe{
+    opacity:0;
+    filter: alpha(opacity=0);
+}
+.header-search-icon{
+    height:18px !important;
+}
+/*子菜单*/
+#mk-main-navigation>ul {
+    background: #fff;
+}
+#mk-main-navigation>ul:before {
+    content: '';
+    background: #fff;
+    position: absolute;
+    width: 1000px;
+    height: 100%;
+    top: 0;
+    right: 100%;
+}
+#mk-main-navigation>ul:after {
+    content: '';
+    background: #fff;
+    position: absolute;
+    width: 1000px;
+    height: 100%;
+    top: 0;
+    left: 100%;
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu .sub-menu {
+    background: none\0;
+    position: fixed;
+    position: absolute\0;
+    width: 100%;
+    height: 414px;
+    margin-top: 0px;
+    z-index: -1;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    display: block;
+    display: none\0;
+    /*transition: transform .4s cubic-bezier(0.2,1,0.2,1);*/
+    /*-webkit-transition: transform .4s cubic-bezier(0.2,1,0.2,1);*/
+}
+/*#mk-main-navigation>ul>li.menu-item.has-mega-menu .sub-menu.mega_col_3 {*/
+/*    margin-top: 65px\0;*/
+/*}*/
+.sticky-trigger-header #mk-main-navigation>ul>li.menu-item.has-mega-menu .sub-menu.mega_col_3 {
+    margin-top: 34px\0;
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen .sub-menu {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen.sub-menu-effect .sub-menu {
+    transition: transform .0s cubic-bezier(0.2,1,0.2,1);
+    -webkit-transition: transform .0s cubic-bezier(0.2,1,0.2,1);
+}
+ /*#mk-main-navigation>ul>li.menu-item.has-mega-menu > a:after {
+    content: "";
+    height: 17px;
+    width: 32px;
+    background: url(http://www.kingdee.com/wp-content/uploads/2017/11/bg.jpg) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-left: -16px;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=@opacity)';
+    background-size: contain;
+    z-index: 2;
+    display: none\0;
+}
+*/
+.sticky-trigger-header #mk-main-navigation>ul>li.menu-item.has-mega-menu > a:after {
+    height: 14px;
+    width: 25px;
+    margin-left: -12.5px;
+    bottom: -1px;
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen > a:after {
+    opacity: 1;
+    -ms-filter: 'alpha(opacity=@opacity)';
+    filter:alpha(opacity=100);
+    display: block\0;
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu > a:before {
+    content: '';
+    width: 4000px;
+    background: #ededed;
+    height: 1px;
+    position: absolute;
+    left: -2000px;
+    top: 100%;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=@opacity)';
+    filter:alpha(opacity=0);
+    display: none\0;
+    z-index: 1;
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen > a:before {
+    opacity: 1;
+    -ms-filter: 'alpha(opacity=@opacity)';
+    display: block\0;
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen .menu01, #mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen .menu02, #mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen .menu03 {
+    opacity: 1;
+    -ms-filter: 'alpha(opacity=@opacity)';
+}
+.main-navigation-ul:hover>.menu-item>.menu-item-link {
+    opacity: 1;
+    -ms-filter: 'alpha(opacity=@opacity)';
+}
+.menu02 .menu-right1, .menu02 .menu-right2, .menu02 .menu-right3, .menu02 .menu-right4, .menu02 .menu-right5, .menu02 .menu-right6 {
+    display: none;
+}
+.menu02 .menu-right1.menu-right-active, .menu02 .menu-right2.menu-right-active, .menu02 .menu-right3.menu-right-active, .menu02 .menu-right4.menu-right-active, .menu02 .menu-right5.menu-right-active, .menu02 .menu-right6.menu-right-active {
+    display: block;
+}
+
+/*新闻检索页*/
+
+.blog-masonry-entry .item-holder {
+    margin: 0 15px 30px 15px;
+    border: 1px solid #eee;
+}
+.part1 .mk-grid{
+max-width:1440px;
+}
+.blog-masonry-entry .blog-entry-heading{
+    padding: 15px 15px 0px 15px;
+    background-color: #fff;
+}
+.blog-masonry-entry .blog-excerpt {
+  padding: 0px 15px 10px 15px;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 24px;
+    color: #7a7f7e;
+}
+.blog-masonry-entry.three-column .blog-title{
+    line-height: 28px;
+    margin-top: 5px;
+}
+.blog-masonry-entry .blog-entry-heading .blog-title a{
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+}
+.blog-masonry-entry .blog-entry-heading .blog-title a:hover{
+    color: #1580e4;
+}
+time{
+    color: #7a7f7e;
+}
+.blog-masonry-entry.three-column .mk-love-holder{
+    top:0px;
+}
+.mk-icon-heart:before{
+      content: '' !important;
+    background-image: url(/wp-content/uploads/2017/07/wex.png);
+     width: 14px;
+    height: 13px; 
+}
+.mjc-lft{
+    padding-right: 20px;
+}
+.mjc-lft:before{
+      content: '' !important;
+    background-image: url(/wp-content/uploads/2017/07/viwe.png);
+    width: 22px;
+    height: 12px;
+    position: absolute;
+    margin-left: -28px;
+    margin-top: 3px;
+}
+.blog-masonry-entry .blog-meta{
+    padding:0;
+}
+.view-love div{
+   display: inline-block; 
+}
+.view-love{
+   margin-left: 70%; 
+}
+/*menu-bg*/
+.mega-menu-bg {
+    position: absolute;
+    width: 100%;
+    height: 414px;
+    background: #fff;
+    top: 100%;
+    top: auto\0;
+    bottom: 100%\0;
+    left: 0;
+    z-index: -2;
+    font-size: 0;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transition: transform .2s cubic-bezier(0.2,1,0.2,1);
+    -webkit-transition: transform .2s cubic-bezier(0.2,1,0.2,1);
+}
+.dropdownMenuBg .mega-menu-bg {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    bottom: auto\0;
+    top: 100%\0;
+}
+.mega-menu-left {
+    display: inline-block;
+    background: #fff;
+    width: 610px !important;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+    height: 100%;
+}
+.dropdownMenuBg .mega-menu-left {
+    background: #fff;
+}
+.all-new-menu a{
+    color:#666;
+    
+}
+.all-new-menu a:hover{
+    color:#005abc;
+    
+}
+#mk-main-navigation > ul > li.menu-item > a{
+    padding:0px 18px !important;
+}
+
+/*footer*/
+.m-footer-wrapper {
+    display: none;
+}
+/*mk-header ie8*/
+#mk-header #mk-main-navigation > ul > li.menu-item, #mk-header .mk-header-search, #mk-header .mk-header-search a {
+    height: 70px;
+    line-height: 70px\0;
+    margin-top: 0!important;
+}
+#mk-header.sticky-header {
+    border-bottom: 1px solid #e6e6e6\0;
+}
+#mk-main-navigation>ul>li.menu-item.has-mega-menu.dropdownOpen .sub-menu {
+    display: block\0;
+}
+.header-search-close i {
+    font-size: 14px\0;
+}
+form.header-searchform-input {
+    padding-right: 40px\0;
+    padding-left: 50px\0;
+    width: 10%\0;
+    height: 50%\0;
+    right: 0\0;
+    left: auto\0;
+    margin-right: 60px\0;
+    margin-top: 15px\0;
+    background: url(/wp-content/uploads/2017/06/qw1.png) no-repeat center center\0;
+}
+form.header-searchform-input input[type=text] {
+    background: none\0;
+    padding: 10px 0\0;
+    margin-top: 0\0;
+    float: none\0;
+    height: 100%\0;
+}
+#s {
+    width: 100%\0;
+}
+.header-search-close {
+    top: 25%\0;
+    right: 20px\0;
+    margin-top: 0\0;
+}
+.new-two-need {
+    width: 540px\0\8;
+}
+#frm_field_126_container, #frm_field_128_container {
+    float: none\0\8;
+    text-align: right\0\8;
+}
+.new-two-context {
+    height: 360px\0\8;
+}
+.new-th-contact {
+    width: 440px\0\8;
+}
+a.logo_img {
+    display: block;
+    margin-bottom: 2px;
+}
+.header-search-user-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -2px;
+}
+.header-search-icon i {
+    line-height: normal;
+}
+#mk-main-navigation > ul > li.menu-item > a.header-logout {
+    font-size: 16px;
+    transition: line-height 200ms ease-in-out;
+    padding-right: 0;
+    display: inline-block;
+    padding-left: 10px;
+}
+.header-search-close {
+    margin-top: -9px;
+}
+form.header-searchform-input input[type=text]{
+    margin-top: 18px;
+}
+.login_header .header-search-close {
+    right: 103px;
+}
+.login_header form.header-searchform-input input[type=text]{
+    margin-right: 60px;
+}
+.login_header.sticky-trigger-header .header-search-close {
+    right: 125px;
+}
+.login_header.sticky-trigger-header form.header-searchform-input input[type=text]{
+    margin-right: 103px;
+}
+#mk-header #mk-main-navigation>ul>li.menu-item.user-menu-icon>a.menu-item-link {
+    line-height: 88px;
+}
+#mk-header.sticky-trigger-header #mk-main-navigation>ul>li.menu-item.user-menu-icon>a.menu-item-link {
+    line-height: 55px;
+}
+#mk-main-navigation > ul > li.menu-item.user-menu-icon > a.menu-item-link {
+    width: 39px;
+    background: url(http://www.kingdee.com/wp-content/uploads/2018/12/sc3.png) no-repeat center center;
+    transition: all .2s ease-in-out, background-image 0s;
+    -webkit-transition: all .2s ease-in-out, background-image 0s;
+    -moz-transition: all .2s ease-in-out, background-image 0s;
+    -ms-transition: all .2s ease-in-out, background-image 0s;
+    -o-transition: all .2s ease-in-out, background-image 0s;
+}
+#mk-main-navigation > ul > li.menu-item.user-menu-icon > a.menu-item-link:hover {
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/sc3.png);
+}
+
+/*mobile-menu*/
+#mk-main-navigation > ul > li.menu-item.user-menu-icon {
+    float: right;
+}
+#mk-header .main-navigation-ul .mobile_menu_item {
+    display: none;
+}
+/*//mobile-menu*/
+@media screen and (min-width:768px) and (max-width:960px){
+   .mk-header-search{
+    float: right !important;
+	margin-right: 20px;  
+    }
+.header-align-left .mk-header-logo{
+      float: left!important;  
+}
+.header-search-close{
+       right: 0 !important;
+    top: -61px !important;
+    margin-right: 47px;
+}
+}
+/*@media screen and (min-width:460px) and (max-width: 768px){
+	  .mk-burger-icon{
+	 margin-top: 7px !important;  
+   }
+.header-search-close {
+	    top: -59px !important;   
+   }
+	
+}
+*/
+@media (max-width: 768px) {
+.mk-mobile-logo{
+margin-top: 15px !important;
+}
+  .mk-header-search{
+    float: right !important;
+	margin-right: 20px;  
+    }
+}
+@media (max-width: 960px) {
+	
+    /********/
+    #mk-header .main-navigation-ul .mobile_menu_item {
+        display: block;
+    }
+    .mk-responsive-nav li.pc_menu_item {
+        display: none;
+    }
+/**********/
+.mobile_menu_item {
+    display: block;
+}
+
+.mk-header-search {
+    margin-left: 3px;
+    float: left;
+}
+.mk-icon-search:before {
+    background-image: url(/wp-content/uploads/2017/07/mobile-menu-icon_03.jpg);
+    width: 30px;
+    height: 27px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header-search-icon i {
+    line-height: normal;
+}
+.mk-burger-icon div {
+    margin-bottom: 7px;
+}
+.mk-burger-icon {
+    height: 21px;
+    width: 26px;
+}
+.mk-burger-icon .burger-icon-3 {
+    margin-bottom: 0;
+}
+.active-burger .burger-icon-1 {
+    top: 12px;
+}
+.responsive-nav-link {
+    float: right;
+}
+#mk-main-navigation>ul:before, #mk-main-navigation>ul:after {
+    display: none;
+}
+#mk-main-navigation>ul {
+    height: 70px;
+}
+.mk-theme-icon-bottom-big:before {
+    display: none;
+}
+.mk-responsive-nav .mk-nav-arrow {
+    background: url(/wp-content/uploads/2017/07/mobile-menu-icon_07.jpg) no-repeat center center;
+    opacity: 1;
+    background-size: 18px;
+    /*transition: background-image 200ms;*/
+    width: 59px;
+}
+#mk-header.transparent-header-sticky, #mk-header.sticky-header:not(.transparent-header) {
+    border-bottom: 1px solid #b8b8b8;
+}
+.mk-opened-nav #mk-responsive-wrap {
+    border-top: 1px solid #b8b8b8;
+}
+.active-burger .mk-burger-icon {
+    height: 28px;
+}
+.mk-responsive-nav li a {
+    border-top: 0;
+    padding: 18px 35px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+.mk-responsive-nav>li {
+    border-bottom: 1px solid #b8b8b8;
+}
+.mk-responsive-nav li a:hover {
+    color: #1480e2;
+    background-color: transparent;
+}
+.mk-responsive-nav>li>ul {
+    background: #e7e7e7;
+    border-top: 1px solid #b8b8b8;
+}
+.mk-responsive-nav a, .mk-responsive-nav .has-mega-menu .megamenu-title {
+    background-color: transparent;
+}
+.responsive-nav-container {
+    background-color: #fff;
+}
+.mk-responsive-nav li ul li .megamenu-title, .mk-responsive-nav li ul li a {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 18px 20px 18px 55px;
+    text-align: left;
+    text-transform: none;
+    font-weight: 400;
+}
+.mk-responsive-nav .mk-nav-arrow.mk-nav-sub-opened {
+    background-image: url(/wp-content/uploads/2017/07/mobile-menu-icon-hover.jpg);
+}
+.mk-responsive-nav>li.has_icon {
+    border-bottom: 0;
+}
+.mk-responsive-nav>li.has_icon a {
+    font-size: 18px;
+    color: #1480e2;
+    padding: 15px 30px 15px 80px;
+    background-repeat: no-repeat;
+    background-position: 35px 50%;
+    background-size: 28px;
+}
+.mk-responsive-nav>li.has_icon.online_icon a {
+    background-image: url(/wp-content/uploads/2017/07/mobile-menu-icon_11.jpg);
+    margin-top: 15px;
+}
+.mk-responsive-nav>li.has_icon.mail_icon a {
+    background-image: url(/wp-content/uploads/2017/07/mobile-menu-icon_14.jpg);
+}
+.mk-responsive-nav>li.has_icon.tele_icon a {
+    background-image: url(/wp-content/uploads/2017/07/mobile-menu-icon_16.jpg);
+    margin-bottom: 15px;
+}
+.mk-responsive-nav>li.has_icon a:hover {
+    color: #1480e2;
+}
+.blog-list-entry .the-title{
+ border-top: 0px solid #eee !important;
+border-bottom: 0px solid #eee !important;   
+}
+/*mk-seach*/
+form.header-searchform-input {
+    right: 5px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    background: #fff;
+    top: 100%;
+    margin: 1.5%;
+    width: 97%;
+    height: 56px;
+    background: url(/wp-content/uploads/2017/07/m-search-icon_03.jpg) no-repeat 20px 50% #fff;
+    background-size: 25px;
+    -moz-box-shadow: 0 20px 50px -2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 20px 50px -2px rgba(0,0,0,0.3);
+    box-shadow: 0 20px 50px -2px rgba(0,0,0,0.3);
+    padding-right: 85px;
+}
+form.header-searchform-input input[type=submit] {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #b8b8b8;
+    font-size: 20px;
+    height: 56px;
+    border-radius: 0;
+}
+.header-search-close {
+	 top: -53px;
+    right: 0;
+    margin-right: 47px;
+    width: 50px;
+    height: 50px;
+    background-image: url(/wp-content/uploads/2017/08/mobile-search_close.jpg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center center;
+    background-color: #fff;
+}
+.header-search-triggered .mk-header-search .mk-icon-search:before {
+    background-image: none;
+}
+.mk-header-search .active .mk-icon-search:before {
+    background-image: url(/wp-content/uploads/2017/07/mobile-menu-icon_03.jpg);
+    width: 30px;
+    height: 27px;
+}
+form.header-searchform-input input[type=text] {
+    width: 100%!important;
+    /*height: 100%;*/
+    font-size: 20px;
+    float: none;
+    margin: 16px 0;
+    background: #fff;
+    color: #333;
+    padding: 0;
+    background-size: 30px;
+}
+a.header-search-icon.hdfe {
+    opacity: 100;
+    filter: alpha(opacity=100);
+}
+.mk-icon-close:before, .mk-icon-remove:before, .mk-icon-times:before {
+    display: none;
+}
+/* 二级 二级菜单 */
+.mk-responsive-nav>li>ul>li:first-child>a {
+    border-top: 0;
+}
+.mk-responsive-nav li ul ul {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0;
+}
+.mk-responsive-nav>li>ul>li.menu-item-has-children>a:after {
+    content: '';
+    background: url(/wp-content/uploads/2017/08/menu-arrow_03.jpg) no-repeat center center;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    float: right;
+    background-size: contain;
+}
+.mk-responsive-nav li.menu-item-has-children>a:hover {
+    color: #000;
+}
+.mk-responsive-nav>li.menu-item.sub-menu-active>a {
+    color: #1480e2;
+}
+.mk-responsive-nav li.menu-item.third-menu-active>a {
+    color: #1480e2;
+}
+.mk-responsive-nav>li>ul>li.menu-item-has-children.third-menu-active>a:after {
+    transform: rotate(180deg);
+}
+.mk-responsive-nav li ul ul li a {
+    padding: 18px 15px 18px 75px;
+    font-size: 18px;
+    border-top: 1px solid #b8b8b8;
+    color: #333;
+}
+.mk-responsive-nav>li>ul>li>a {
+    border-top: 1px solid #b8b8b8;
+}
+.mega-menu-bg {
+    display: none;
+}
+
+}
+@media screen and (min-width:1100px) and (max-width: 1200px){
+.mega-menu-left {
+    margin-left: -923px !important;
+}
+#menu-item-24970, #menu-item-24979,#menu-item-24992 {
+    margin-left: -923px !important;
+}
+}
+@media screen and (min-width:960px) and (max-width: 1100px){
+.mega-menu-left {
+    margin-left: -863px !important;
+}
+#menu-item-24970, #menu-item-24979,#menu-item-24992 {
+    margin-left: -863px !important;
+}
+#menu-item-24971{
+	    margin-left: -240px !important;
+}
+#menu-item-24980{
+margin-left: -200px !important;	
+}
+#menu-item-24993{
+margin-left: -210px !important;	
+}	
+form.header-searchform-input{
+           width: 124px !important; 
+               left: 85%;
+    }
+ form.header-searchform-input input[type=text]{
+     width: 124px !important;
+     padding:0px 30px !important;
+     background: url(http://www.kingdee.com/wp-content/uploads/2018/03/qw2.png) !important;
+         background-repeat: no-repeat !important;
+ }   
+ .header-search-close{
+    right: 20px !important; 
+ }
+ .sticky-trigger-header .header-searchform-input input[type=text]{
+	padding: 15px 40px 20px 40px !important; 
+ }
+}
+
+@media (max-width: 767px) {
+#mk-header:not(.header-structure-vertical) #mk-main-navigation > ul > li.menu-item, #mk-header:not(.header-structure-vertical) #mk-main-navigation > ul > li.menu-item > a, #mk-header:not(.header-structure-vertical) .mk-header-search, #mk-header:not(.header-structure-vertical) .mk-header-search a, #mk-header:not(.header-structure-vertical) .mk-header-wpml-ls, #mk-header:not(.header-structure-vertical) .mk-header-wpml-ls > a, #mk-header:not(.header-structure-vertical) .mk-cart-link, #mk-header:not(.header-structure-vertical) .mk-responsive-cart-link, #mk-header:not(.header-structure-vertical) .dashboard-trigger, #mk-header:not(.header-structure-vertical) .responsive-nav-link, #mk-header:not(.header-structure-vertical) .mk-header-social a, #mk-header:not(.header-structure-vertical) .mk-margin-header-burger {
+    height: 56px;
+    line-height: 56px;
+}
+
+#mk-header:not(.header-structure-vertical) .responsive-nav-link{
+   height: 56px !important;
+    line-height: 56px !important; 
+}
+#mk-main-navigation>ul {
+    height: 56px;
+}
+/*m-footer*/
+.m-footer-wrapper {
+    display: block;
+}
+#mk-footer .footer-wrapper, #sub-footer {
+    display: none;
+}
+#mk-footer {
+    padding: 0;
+}
+.tab-title {
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #595959;
+    background-repeat: no-repeat;
+    background-position: 92% 50%;
+    background-image: url(/wp-content/uploads/2017/07/footer_tab_icon_06.jpg);
+    background-size: 20px;
+}
+#mk-footer .m-footer-tab ul {
+    margin: 0;
+    padding: 0 20px;
+    background: #3a4559;
+    display: none;
+    border-bottom: 1px solid #595959;
+}
+#mk-footer .m-footer-tab ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#mk-footer .m-footer-tab ul li a {
+    font-size: 16px;
+    color: #b0bad3;
+    padding-left: 40px;
+    border-top: 1px solid #272e3a;
+    display: block;
+    padding: 15px 20px 15px 35px;
+}
+#mk-footer .m-footer-tab ul li:first-child a {
+    border-top: 0;
+}
+.m-footer-tab .tab-title:before {
+    content: '';
+    height: 24px;
+    width: 30px;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.footer-tab01 .tab-title:before {
+    background-image: url(/wp-content/uploads/2017/04/dd0_13.png);
+}
+.footer-tab02 .tab-title:before {
+    background-image: url(/wp-content/uploads/2017/04/dd0_15.png);
+}
+.footer-tab03 .tab-title:before {
+    background-image: url(/wp-content/uploads/2017/04/dd0_10_02.png);
+}
+.footer-active-tab .tab-title {
+    background-image: url(/wp-content/uploads/2017/07/footer_tab_icon_03.jpg);
+}
+.m-footer-container {
+    margin-bottom: 80px;
+}
+.net-link {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#mk-footer .net-link a {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    padding: 0 10px;
+}
+#mk-footer .net-link a:hover {
+    color: #fff;
+}
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+#mk-footer .m-footer-tab ul li a:hover {
+    color: #fff;
+}
+#mk-header:not(.header-structure-vertical) .mk-header-logo img {
+   width: 150px;
+    height: 60px !important;
+}
+.mk-header-logo, .mk-header-logo a {
+    height: 60px;
+	margin-top: -15px;
+}
+.footer-breadcumbs {
+    display: none;
+}
+#mk-responsive-wrap {
+    z-index: 59;
+    position: absolute;
+}
+.mk-opened-nav #mk-responsive-wrap {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: auto;
+    overflow-scrolling: auto;
+}
+}
+.close_1{
+    display:none !important;
+}
+.sl-view-title{
+    font-size: 24px;
+    padding-left: 10px;
+}
+.view-kh .wpb_content_element{
+    margin-bottom:10px !important;
+}
+.vc_toggle_title h4:hover{
+    color:#1580e4;
+}
+.blog-masonry-entry .featured-image{
+    max-height:207px;
+}
+/*news tag*/
+.new-hot-tag{
+       border: 1px solid #ededed;
+    margin-top: 40px;
+    padding:20px 10px;
+}
+.new-hot-title{
+    margin-left: 10px;
+    font-size: 24px;
+    color: #272e3a;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.new-hot-tag span a{
+   margin: 0px 6px;
+    color:#666;
+     font-size:16px;
+}
+.new-hot-tag span a:hover{
+    color:#1580e4;
+    border-bottom:1px solid;
+ 
+}
+.new-han-bt{
+    margin-bottom: 10px;
+}
+
+
+
+/*页面尾部*/
+.foot-one-left{
+	display:inline-block;
+	    margin-left: -80px;
+}
+.foot-one-left li{
+	color:#ffffff;
+	list-style:none;
+	line-height:24px;
+	
+}
+.foot-one-left li a{
+	margin:0px !important;
+	color:#ffffff !important;
+}
+.foot-one-left li a:hover{
+	color:#005abc !important;
+}
+
+.foot-one-right li a{
+	margin:0px !important;
+	color:#ffffff !important;
+}
+.foot-one-right li a:hover{
+	color:#005abc !important;
+}
+.foot-one-right{
+	display:inline-block;
+	float: right;	
+	margin-right: 40px;
+}
+.foot-one-right li{
+	color:#ffffff;
+	list-style:none;
+	line-height:24px;
+	
+}
+#mk-footer .mk-col-1-3{
+	border-right: 1px solid #444a53;
+	    height: 200px;
+		text-align:center;
+}
+
+.mk-footer-copyright{
+    width:100%;
+}
+
+/*右侧栏*/
+.rttop{
+opacity: 0;
+position: absolute;
+    bottom: -100%;
+}
+.rttop-show{
+ opacity: 1 !important;   
+}
+.new-right-slide{
+ position: fixed;
+    right: 0;
+    bottom: 36%; 
+    z-index:100;
+}
+
+.new-right-slide p{
+    margin-bottom:0px;
+    cursor: pointer;
+}
+
+.new-right-need{
+ 
+    background: #ffffff;
+    right: 110%;
+    width: 500px;
+    z-index: 200;
+    border-radius: 10px;
+    padding-bottom: 50px;
+   
+}
+.new-right-title{
+      background: #1580e4;
+    padding: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.new-tm{
+   display:none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    top: -60px;
+    right: 100%;
+    width: 500px;
+    z-index: 200;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+
+
+.new-two-need{
+	display:none;
+     position: absolute;
+    background: rgba(255, 255, 255, 0);
+    top: -95px;
+    right: -1000%;
+    width: 500px;
+    z-index: 200;
+    padding-bottom: 30px;
+    padding: 20px;
+	 transition: all .4s ease-in-out;
+}
+.yuandian{
+	 right: 100% !important;
+}
+.new-two-context{
+    background: #ffffff;
+    right: 110%;
+    width: 500px;
+    z-index: 200;
+    border-radius: 10px;
+   padding-bottom: 50px;
+   height:320px;
+   box-shadow: 0px 0px 10px #999999;
+    
+}
+
+.new-two-title{
+      background: #1580e4;
+    padding: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.right-two-img{
+    position: absolute;
+    top: 0;
+}
+.right-two-zi{
+    margin-left: 90px;
+}
+
+
+.new-th-contact{
+	display:none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    top:25px;
+    right: -1000%;
+    width: 400px;
+    z-index: 200;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding: 20px;
+	 transition: all .4s ease-in-out;
+}
+
+.new-th-context{
+    background: #ffffff;
+    right: 110%;
+   width: 400px;
+    z-index: 200;
+    border-radius: 10px;
+	 box-shadow: 0px 0px 10px #999999;
+   
+}
+
+.new-th-title{
+      background: #00cae2;
+    padding:5px 20px;
+    font-size: 24px;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.right-th-img{
+    position: absolute;
+    top: 0;
+}
+.right-th-zi{
+    margin-left: 110px;
+}
+.right-th-zi p{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.right-th-big{
+  font-size: 18px;  
+}
+.right-th-big-lefe{
+    margin-left: 7%;
+    font-size: 16px;
+}
+.right-th-phone{
+  color: #00cae2;
+    font-size: 15px; 
+}
+.right-th-lphone{
+  color: #333;
+    font-size: 15px; 
+}
+.right-th-sm{
+     margin-left: 27%;
+    font-size: 16px;
+}
+.new-th-xq{
+   padding: 20px 20px; 
+}
+.right-th-dd{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.right-th-dd a{
+    color:#666666;
+}
+.right-th-dd a:hover{
+    color:#1580e4;
+}
+.right-th-last{
+    margin-top:10px;
+}
+.gfield_required{
+        color: red;
+}
+.gfield_label{
+    font-size: 16px;
+    color: #666;
+}
+
+.new-five-context{
+	display:none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    top: 15px;
+    right: -1000%;
+    z-index: 200;
+    padding-bottom: 30px;
+    padding: 20px;
+	 transition: all .4s ease-in-out;
+	
+}
+.new-right-biao{
+padding:20px;	
+}
+.new-right-biao  label.frm_primary_label{
+  font-size: 16px !important;
+    color: #666 !important;
+    font-weight: 100 !important;
+    
+}
+.new-right-biao .frm_style_formidable-style.with_frm_style .frm_inline_container label.frm_primary_label{
+    margin-right:0px;
+
+}
+#frm_field_126_container,#frm_field_128_container{
+        float: right;
+    margin-top: -50px;
+}
+#field_eqbnx{
+    width:155px;
+}
+.new-right-biao .frm_style_formidable-style.with_frm_style .frm_required{
+    display:none;
+}
+.new-right-biao .frm_style_formidable-style.with_frm_style select {
+    height: 30px;
+}
+.new-right-biao .frm_button_submit{
+        border: none;
+    background: #1580e4;
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.new-right-biao .frm_button_submit:hover{
+	 background: #00b9ef;
+}
+.new-right-biao .frm_error_style{
+    display:none;
+}
+.new-right-biao .frm_style_formidable-style.with_frm_style input[type=url],.frm_style_formidable-style.with_frm_style input[type=text],.frm_style_formidable-style.with_frm_style input[type=email]{
+    height:30px;
+}
+.new-right-biao textarea{
+height:90px;	
+}
+.new-two-context .frm_style_formidable-style.with_frm_style select{
+	 padding: 0px 10px !important;
+ }
+/*右侧栏结束*/
+
+/*解决方案部分*/
+.mass a:hover{
+text-decoration:underline;
+}
+
+.pointed a:hover{
+	text-decoration: none;
+    border-bottom: 1px solid;
+}
+.new-th-xq p{
+	    cursor: auto !important;
+}
+
+.menu-close1 {
+    font-size:14px;
+    color:#1580e4;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:410px;
+    cursor:pointer;
+}
+.menu-close1:hover {
+ color:#005abc;   
+}
+
+#frm_field_125_container .frm_error{
+	    position: absolute !important;
+}
+.kj-clort{
+	cursor: pointer;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    color: #ffffff;
+    z-index: 10002;
+    font-weight: 400;
+    margin-right: 40px;
+    margin-top: -10px;
+	    
+}
+.rt-imgtop,.rt-img1,.rt-img2,.rt-img3,.rt-img5{
+position: relative;
+    z-index: 350;
+	line-height:0px !important;  
+}
+
+#menu-item-16{
+cursor: pointer;	
+}
+.mk-icon-search{
+cursor: pointer;
+}
+@media (min-width: 767px) {
+	.mk-go-top{
+	display:none !important;	
+	}
+	
+}
+@media (min-width: 960px){
+#mk-header:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+}
+@media screen and (min-width:640px) and (max-width: 1140px){
+#mk-header .mk-grid{
+ padding-left: 0px !important;
+    padding-right: 0px !important;   
+}
+.foot-one-left{
+	margin-left: -40px !important;
+	}
+}
+/*IE11*/
+.iedf{
+margin-top:0px !important;	
+}
+.iemlf{
+margin-left: 40px !important;
+}
+
+.iebbn{
+margin-top:0 !important;
+height:34px !important;
+}
+.ielogun{
+margin-top:-15px !important;
+}
+#menu-item-30976.user-menu-icon a{
+    margin-top:-8px\9;
+}
+@media screen and (min-width:960px) and (max-width: 1100px){
+form.header-searchform-input {
+    background: none\0;
+	margin-right: 50px\0;
+	right: auto\0;
+	left: 75%\0;
+}
+}
+@media screen and (min-width:460px) and (max-width: 960px){
+.iebbn{
+margin-top:10px !important;	
+}
+.iedf{
+margin-top:-6px !important;	
+}
+}
+.iehtop{
+margin-top:50px !important;	
+}
+
+@-webkit-keyframes bounce-down {
+
+    25% {
+
+        -webkit-transform: translateY(-10px);
+
+    }
+
+    50%, 100% {
+
+        -webkit-transform: translateY(0);
+
+    }
+
+    75% {
+
+        -webkit-transform: translateY(10px);
+
+    }
+
+}
+
+ 
+
+@keyframes bounce-down {
+
+    25% {
+
+        transform: translateY(-10px);
+
+    }
+
+    50%, 100% {
+
+        transform: translateY(0);
+
+    }
+
+    75% {
+
+        transform: translateY(10px);
+
+    }
+
+}
+
+ 
+
+.animate-bounce-down{
+
+    -webkit-animation: bounce-down 3.5s linear infinite;
+
+    animation: bounce-down 3.5s linear infinite;
+
+}
+
+ 
+
+@-webkit-keyframes bounce-up {
+
+    25% {
+        -webkit-transform: translateY(-10px);
+    }
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+
+    75% {
+        -webkit-transform: translateY(10px);
+    }
+}
+
+ 
+
+@keyframes bounce-up {
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50%, 100% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(10px);
+    }
+}
+.animate-bounce-up{
+    -webkit-animation: bounce-up 2s linear infinite;
+    animation: bounce-up 2s linear infinite;
+}
+
+/*新闻分页*/
+.mk-pagination{
+display:none;	
+}
+.mk-pagination .current-page {
+    background:none !important;
+    color: #333;
+    
+}
+.mk-pagination ul li a{
+  color:#1580e4 !important;
+}
+.mk-pagination ul li a:hover{
+   background:none !important;
+    color: #005abc;
+}
+/*.mk-pagination .current-page,.mk-pagination .page-number {
+    margin: 0 20px;
+}*/
+.mk-pagination .current-page{
+	 color:#333 !important;   
+}
+.mk-pagination .page-number:hover{
+ color:#0d6fb8 !important;   
+
+}
+
+
+
+.qyiye{
+    padding: 7px 10px !important;
+}
+.hyiye {
+    padding: 7px 10px !important;
+}
+
+/*.first-ye{
+    padding: 7px 10px !important;
+}*/
+
+/*.weiye {
+    padding: 7px 10px !important;
+}*/
+
+
+.cla {
+    padding: 7px 10px !important;
+}
+
+/*倒计时*/
+
+.ceshi1{
+     display:none;
+  position:absolute;
+  margin-left:12.5%;
+  background:url(http://www.kingdee.com/wp-content/uploads/2018/06/lkd.jpg);
+  width:132px;
+  height:50px;
+  margin-top:6px;
+}
+.ceshi2{
+     display:none;
+ position: absolute;
+    margin-left: 19.1%;
+    margin-top: 37px;
+    color: #2384ec;
+}
+.ceshi3{
+     display:none;
+  position:absolute;
+  margin-left:12.5%;
+   margin-top:41px;
+  color:#999;
+   font-size:14px;
+}
+.sticky-trigger-header .ceshi1{
+margin-left: 8.5%;
+margin-top: 6px;
+ background:url(http://www.kingdee.com/wp-content/uploads/2018/06/m2.jpg);
+  width:85px;
+  height:32px; 
+}
+.sticky-trigger-header .ceshi3{
+margin-left:8.5%;
+ margin-top: 23px;
+font-size: 14px; 
+}
+.sticky-trigger-header .ceshi2{
+margin-left: 12.8%;
+margin-top: 22px;
+font-size: 14px;
+}
+.dj-daty{
+   font-size: 22px;
+    font-weight: bold;
+}
+.sticky-trigger-header .dj-daty{
+    font-size:14px; 
+}
+.last-date{
+    margin-left: 5px;
+}
+@media (max-width: 460px){
+	.ceshi1{
+    display:none !important;
+}
+.ceshi2{
+    display:none !important;
+}
+.ceshi3{
+    display:none !important;
+}
+	}
+/*newcaidan*/	
+/*.has-mega-menu:before{
+  content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/gf.png);
+    height: 5px;
+    width: 8px;
+    background-size: 100% 100%;
+    display: inline-block;
+  position: absolute;
+    margin-left: -10px;
+    margin-top: 34px;
+}
+*/
+.sticky-trigger-header .has-mega-menu:before{
+     margin-top: 20px; 
+}
+.menu-befpt:before{
+  background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/gf1.png) !important;   
+}
+.bf-lefe:before{
+    margin-left:65px;
+}
+.bf-lefe1:before{
+    margin-left:100px;
+}
+.bf-lefe2:before{
+    margin-left:120px;
+}
+.bf-lefe3:before{
+    margin-left:65px;
+}
+
+/*新增的尾部样式*/
+.newicon1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n19.png);
+    height: 19px;
+    width: 20px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon2:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n20.png);
+    height: 20px;
+    width: 17px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon3:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n21.png);
+    height: 20px;
+    width: 19px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon4:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n22.png);
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon5:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n23.png);
+    height: 20px;
+    width: 19px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon6:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n24.png);
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon7:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n25.png);
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.foot-tt-bg span{
+ font-size:16px;
+ color:#bfbfbf;
+}
+.foot-tt-bg span:hover{
+ color:#1580e4;   
+}
+.newicon2,.newicon3,.newicon4,.newicon5,.newicon6,.newicon7{
+    margin-left:82px;
+}
+
+.all-foot a{
+    color:#bfbfbf !important;
+}
+.all-foot a:hover{
+    color:#1580e4 !important;
+}
+.mk-footer-copyright, .mk-footer-copyright a {
+    color: #bfbfbf !important;
+}
+
+
+/*新增的尾部样式*/
+.newicon1-1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/id22.png);
+    height: 26px;
+    width: 22px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon2-1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/id23.png);
+    height: 24px;
+    width: 22px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon3-1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/id24.png);
+    height: 26px;
+    width: 26px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon4-1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/id25.png);
+    height: 26px;
+    width: 28px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon5-1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/id26.png);
+    height: 27px;
+    width: 26px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon6-1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/09/n24.png);
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.newicon7-1:before{
+    content: "";
+    background-image: url(http://www.kingdee.com/wp-content/uploads/2018/12/id27.png);
+    height: 21px;
+    width: 27px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.foot-tt-bg1 span{
+ font-size:16px;
+ color:#7a7a7a;
+}
+.foot-tt-bg1 span:hover{
+ color:#1580e4;   
+}
+.newicon2-1,.newicon3-1,.newicon4-1,.newicon5-1,.newicon6-1,.newicon7-1{
+    margin-left:100px;
+}
+.new-foot-style{
+    width: 1071px;
+    margin-left: 80px;
+}
+
+.mk-footer-copyright .all-foot1 a{
+    color:#7a7a7a !important;
+    line-height: 32px;
+}
+.all-foot1 a:hover{
+    color:#1580e4 !important;
+}
+.mk-footer-copyright .qixia1 a{
+    color:#7a7a7a !important;
+}
+.qixia1 a:hover{
+    color:#1580e4 !important;
+}
+ .qixia2{
+ border-bottom: 1px solid #d8d8d8;
+    margin-top: 12px;  
+ }   
+.mk-footer-copyright .foot-small-left a{
+     color:#7a7a7a !important;
+ }
+  .foot-small-left a:hover{
+     color:#1580e4 !important;
+ }
