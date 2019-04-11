@@ -1,0 +1,90 @@
+.chat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.chat .chat-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.chat .chat-item .img-bg {
+    height: 76px;
+    width: 76px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat .chat-item .chat-span {
+    font-size: 14px;
+    color: #fff;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.contact {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service li {
+    width: 92px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+
+.project-box {
+    width: 100%;
+}
+.project-box .list {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.project-box .list li {
+    padding: 20px 10px;
+}
+.project-box .list li a {
+    color: #fff;
+    font-size: 16px;
+}
+.project-box .list li:first-child a {
+    font-weight: bold;
+}
+
+.qualification {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.qualification .qualification-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualification .qualification-content .content {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+}
