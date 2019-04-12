@@ -1,6 +1,6 @@
 document.write('<script src="assets/js/public/jquery.min.js""  type="text/javascript"></script>');
 
-document.write('<script src="assets/js/public/bootstrap/bootstrap.min.js"  type="text/javascript"></script>');
+document.write('<script src="assets/js/bootstrap/bootstrap.min.js"  type="text/javascript"></script>');
 
 document.write('<script src="assets/js/public/jquery.flexslider-min.js"  type="text/javascript"></script>');
 
