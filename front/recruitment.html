@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title></title>
+        <link rel="stylesheet" href="assets/js/fullPage/jquery.fullPage.css" />
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+      
+        <!--  loader  -->
+        <div id="myloader">
+            <div class="loader">
+                <div class="grid">
+                    <div class="cube cube1"></div>
+                    <div class="cube cube2"></div>
+                    <div class="cube cube3"></div>
+                    <div class="cube cube4"></div>
+                    <div class="cube cube5"></div>
+                    <div class="cube cube6"></div>
+                    <div class="cube cube7"></div>
+                    <div class="cube cube8"></div>
+                    <div class="cube cube9"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!--  头部  -->
+        <header id="contact-header">
+
+        </header>
+        <!--  头部  -->
+            
+        <!--  Main Wrap  -->
+        <div class="section">
+            <div class=""></div>
+        </div>
+        <div class="section">
+            <div class="slide">
+                <h3>第二屏的第一屏</h3>
+            </div>
+            <div class="slide">
+                <h3>第二屏的第二屏</h3>
+            </div>
+            <div class="slide">
+                <h3>第二屏的第三屏</h3>
+            </div>
+        </div>
+        <div class="section">
+            <h3>第三屏</h3>
+        </div>
+        <div class="section">
+            <footer id="contact-footer">
+            
+            </footer>
+        </div>
+        <!--  Main Wrap  -->
+        
+
+        <!--  Footer  -->
+        <script src="assets/js/commom.js"></script>
+        <script src="assets/js/commomCss.js"></script>
+        <script src="./assets/js/fullPage/jquery-ui-1.10.3.min.js"></script>
+        <script src="./assets/js/fullPage/jquery.fullPage.min.js"></script>
+        <script>
+            $("#contact-header").load("assets/public/header.html");
+            $("#contact-footer").load("assets/public/footer.html")
+        </script>
+        <script>
+
+            $(document).ready(function () {
+
+                $.fn.fullpage({
+
+                    slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+
+                    // anchors: ['page1', 'page2', 'page3', 'page4']
+
+                });
+
+            });
+
+        </script>
+    </body>
+</html>

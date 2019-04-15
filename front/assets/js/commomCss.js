@@ -3,14 +3,14 @@ document.write('<link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesh
 
 document.write('<link href="assets/css/bootstrap/bootstrap-theme.min.css" rel="stylesheet" type="text/css">');
 
-document.write('<link href="assets/css/style.css" rel="stylesheet" type="text/css">');
+document.write('<link href="assets/css/public/style.css" rel="stylesheet" type="text/css">');
 
-document.write('<link href="http://www.jq22.com/jquery/font-awesome.4.6.0.css" rel="stylesheet" type="text/css">');
+document.write('<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">');
 
-document.write('<link href="assets/css/ionicons.min.css" rel="stylesheet" type="text/css">');
+document.write('<link href="assets/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css">');
 
-document.write('<link href="assets/css/flexslider.css" rel="stylesheet" type="text/css">');
+document.write('<link href="assets/css/public/flexslider.css" rel="stylesheet" type="text/css">');
 
-document.write('<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">');
+document.write('<link href="assets/css/public/owl.carousel.css" rel="stylesheet" type="text/css">');
 
-document.write('<link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">');
+document.write('<link href="assets/css/public/magnific-popup.css" rel="stylesheet" type="text/css">');
