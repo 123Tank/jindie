@@ -1,93 +1,272 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title></title>
-        <link rel="stylesheet" href="assets/js/fullPage/jquery.fullPage.css" />
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+<html lang="en" data-dpr="1">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width,viewport-fit=cover,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="Cache-Control:private" content="max-age=0">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="renderer" content="webkit">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title></title>
+    <link rel="stylesheet" href="assets/js/fullPage/fullpage.min.css" />
+    <link rel="stylesheet" href="assets/js/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/recruitment.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body>
-      
-        <!--  loader  -->
-        <div id="myloader">
-            <div class="loader">
-                <div class="grid">
-                    <div class="cube cube1"></div>
-                    <div class="cube cube2"></div>
-                    <div class="cube cube3"></div>
-                    <div class="cube cube4"></div>
-                    <div class="cube cube5"></div>
-                    <div class="cube cube6"></div>
-                    <div class="cube cube7"></div>
-                    <div class="cube cube8"></div>
-                    <div class="cube cube9"></div>
+    <style>
+    </style>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if (clientWidth >= 768 && clientWidth < 996) {
+                        docEl.style.fontSize = '54px';
+                    } else if (clientWidth >= 996) {
+                        docEl.style.fontSize = 0;
+                    } else {
+                        docEl.style.fontSize = 80 * (clientWidth / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+</head>
+
+<body>
+
+    <!--  loader  -->
+    <div id="myloader">
+        <div class="loader">
+            <div class="grid">
+                <div class="cube cube1"></div>
+                <div class="cube cube2"></div>
+                <div class="cube cube3"></div>
+                <div class="cube cube4"></div>
+                <div class="cube cube5"></div>
+                <div class="cube cube6"></div>
+                <div class="cube cube7"></div>
+                <div class="cube cube8"></div>
+                <div class="cube cube9"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="recruitment-header">Header</div>
+    <div id="recruitment-footer">
+        <div class="content-box">
+        <img src="assets/img/index/gsjk-b.png" title="深圳市市场监督管理局企业主体身份公示" alt="深圳市市场监督管理局企业主体身份公示" width="24"
+            height="32" border="0" style="border-width:0px;border:hidden; border:none;">
+        <span class="footer-span">© 1993-2018金蝶软件（中国）有限公司 粤ICP备05041751号-21</span>
+        </div>
+        <span id="nextPage" class="btn-toggle nextPage2" role="presentation"></span>
+    </div>
+
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <div class="post">
+                <div class="mask-block"></div>
+                <div class="cir-mask"></div>
+                <div class="tagline" style="display:block;">
+                    <h2 class="slogan en-font3 isPc">Kingdee TALENT</h2>
+                    <h2 class="slogan en-font3 isApp">Kingdee TALENT</h2>
+                    <h2 class="tit ch-font2 font-clamp2">让年轻身经百战</h2><span class="sep-line"></span>
+                    <p class="txt ch-font3 isPc">金蝶人才招聘</p>
+                    <p class="txt ch-font3 isApp">金蝶人才招聘</p>
+                    <div class="qw-wrapper"><span class="txt table-cell">微信公众号</span>
+                        <div class="img-small">
+                            <!-- react-text: 294 -->
+                            <!-- /react-text --><img src="http://www.kingdee.com/wp-content/uploads/2018/12/id28.png"
+                                width="19" height="19" alt=""></div>
+                        <div class="img-big"><img src="http://www.kingdee.com/wp-content/uploads/2018/12/id28.png"
+                                width="68" height="68" alt=""></div>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <!--  头部  -->
-        <header id="contact-header">
-
-        </header>
-        <!--  头部  -->
-            
-        <!--  Main Wrap  -->
-        <div class="section">
-            <div class=""></div>
-        </div>
-        <div class="section">
-            <div class="slide">
-                <h3>第二屏的第一屏</h3>
+        <div class="section" id="section1">
+            <div class="content-center">
+                <div class="tip_title p15">
+                    <h3 class="tit-ch">加入金蝶</h3>
+                    <h3 class="tit-en en-font3">JOIN Kingdee</h3>
+                </div>
+                <section class="en_us_content">
+                    <div class="item" style="padding:10px">
+                        <a href="">
+                            <div class="en_us_img">
+                                <img src="assets/img/recruitment/society-portal.4e11c792.png" alt="" />
+                                <div class="mask"></div>
+                            </div>
+                            <p class="en_us_p">社会招聘</p>
+                        </a>
+                    </div>
+                    <div class="item" style="padding:10px">
+                        <a href="">
+                            <div class="en_us_img">
+                                <img src="assets/img/recruitment/campus-portal.91b934f9.png" alt="" />
+                                <div class="mask"></div>
+                            </div>
+                            <p class="en_us_p">校园招聘</p>
+                        </a>
+                    </div>
+                    <div class="item" style="padding:10px">
+                        <a href="">
+                            <div class="en_us_img">
+                                <img src="assets/img/recruitment/intern-portal.99d5c474.png" alt="" />
+                                <div class="mask"></div>
+                            </div>
+                            <p class="en_us_p">实习招聘</p>
+                        </a>
+                    </div>
+                </section>
             </div>
-            <div class="slide">
-                <h3>第二屏的第二屏</h3>
+        </div>
+        <div class="section" id="section2">
+            <div class="tip_title marginCenter p100">
+                <h3 class="tit-ch">走进金蝶</h3>
+                <h3 class="tit-en en-font3">DISCOVER Kingdee</h3>
             </div>
-            <div class="slide">
-                <h3>第二屏的第三屏</h3>
+            <div class="video-box">
+                <video id="myVideo" loop muted data-autoplay>
+                    <source src="http://www.kingdee.com/customs/xiaozhao/xiaozhao5.mp4" type="video/mp4">
+                    <!-- <source src="imgs/flowers.webm" type="video/webm"> -->
+                </video>
             </div>
         </div>
-        <div class="section">
-            <h3>第三屏</h3>
+        <div class="section" id="section3">
+            <div class="tip_title marginCenter">
+                <h3 class="tit-ch">薪酬福利</h3>
+                <h3 class="tit-en en-font3">SALARY AND BENEFITS</h3>
+            </div>
+            <div class="apple-retail">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide init">
+                            <div class="inner">
+                                <figure><img src="assets/img/recruitment/benifit-1.f375d97e.png"></figure>
+                                <div class="gallery-item-desc">
+                                    <h3 class="typography-label">福利关怀</h3>
+                                    <p class="typography-body">全方位福利关怀，关爱你及家人</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <figure><img src="assets/img/recruitment/benifit-2.b43db3f0.jpg"></figure>
+                                <div class="gallery-item-desc">
+                                    <h3 class="typography-label">培训成长</h3>
+                                    <p class="typography-body">多元培训和双职业发展通道，鼓励持续成长</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <figure><img src="assets/img/recruitment/benifit-3.c1009cf2.png"></figure>
+                                <div class="gallery-item-desc">
+                                    <h3 class="typography-label">薪酬激励</h3>
+                                    <p class="typography-body">为高绩效和高成长付薪，鼓励持续价值创造
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <!--左箭头-->
+                    <div class="swiper-button-next"></div>
+                    <!--右箭头-->
+                </div>
+            </div>
         </div>
-        <div class="section">
-            <footer id="contact-footer">
-            
-            </footer>
-        </div>
-        <!--  Main Wrap  -->
-        
+    </div>
+    <script src="assets/js/commom.js"></script>
+    <script src="assets/js/commomCss.js"></script>
+    <script src="./assets/js/fullPage/fullpage.min.js"></script>
+    <script src="./assets/js/swiper/swiper.min.js"></script>
+    <script>
+        $("#recruitment-header").load("assets/public/header.html");
+    </script>
+    <script>
 
-        <!--  Footer  -->
-        <script src="assets/js/commom.js"></script>
-        <script src="assets/js/commomCss.js"></script>
-        <script src="./assets/js/fullPage/jquery-ui-1.10.3.min.js"></script>
-        <script src="./assets/js/fullPage/jquery.fullPage.min.js"></script>
-        <script>
-            $("#contact-header").load("assets/public/header.html");
-            $("#contact-footer").load("assets/public/footer.html")
-        </script>
-        <script>
+        $(document).ready(function () {
 
-            $(document).ready(function () {
-
-                $.fn.fullpage({
-
-                    slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
-
-                    // anchors: ['page1', 'page2', 'page3', 'page4']
-
-                });
-
+            var myFullpage = new fullpage('#fullpage', {
+                anchors: ['firstPage', 'secondPage', '3rdPage'],
+                sectionsColor: ['#fff', '#fff', '#fff', '#fff'],
+                css3: true,
+                scrollBar: false
             });
 
-        </script>
-    </body>
+            document.querySelector('#nextPage').addEventListener('click', function (e) {
+                e.preventDefault();
+                fullpage_api.moveSectionDown();
+            });
+
+            $(".en_us_content").owlCarousel({
+                loop: true,
+                items: 3,
+                autoplay: false,
+                dots: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    650: {
+                        items: 1
+                    },
+                    991: {
+                        items: 3
+                    }
+                }
+            });
+
+            var swiper = new Swiper('.swiper-container', {
+                speed: 700,
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                on: {
+                    init: function () {
+                        this.slides.removeClass('init');
+                    },
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+            });
+            swiper.$el.parent('.apple-retail')[0].onmouseover = function () {
+                swiper.$el.addClass('mouse-hover');
+            };
+            swiper.$el.parent('.apple-retail')[0].onmouseout = function () {
+                swiper.$el.removeClass('mouse-hover');
+            };
+        });
+
+    </script>
+</body>
+
 </html>
