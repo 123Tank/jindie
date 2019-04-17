@@ -91,10 +91,10 @@ a:focus {
 }
 
 header.primary {
-  position: fixed;
+  /* position: fixed;
   z-index: 1999;
   top: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
